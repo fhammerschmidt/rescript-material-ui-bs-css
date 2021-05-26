@@ -1,0 +1,33 @@
+{
+  "name": "rescript-material-ui-bs-css",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "run-p watch vite:serve",
+    "build": "run-s res:build vite:build",
+    "vite:serve": "vite --port 8083",
+    "vite:build": "vite build",
+    "res:build": "bsb -make-world",
+    "clean": "bsb -clean world",
+    "watch": "bsb -make-world -clean-world -w"
+  },
+  "keywords": [
+    "rescript",
+    "material-ui",
+    "bs-css"
+  ],
+  "author": "Florian Hammerschmidt",
+  "license": "MIT",
+  "dependencies": {
+    "@jsiebern/bs-material-ui": "^2.0.2",
+    "@material-ui/core": "^4.9.11",
+    "bs-css-emotion": "^3.0.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "reason-react": "^0.9.1"
+  },
+  "devDependencies": {
+    "bs-platform": "^8.4.2",
+    "npm-run-all": "^4.1.5",
+    "vite": "^2.0.0"
+  }
+}

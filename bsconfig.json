@@ -1,0 +1,27 @@
+{
+  "name": "rescript-material-ui-bs-css",
+  "version": "0.0.1",
+  "sources": {
+    "dir": "src",
+    "subdirs": true
+  },
+  "package-specs": [
+    {
+      "module": "es6",
+      "in-source": true
+    }
+  ],
+  "suffix": ".bs.js",
+  "bs-dependencies": [
+    "bs-css",
+    "bs-css-emotion",
+    "@jsiebern/bs-material-ui",
+    "reason-react"
+  ],
+  "warnings": {
+    "error": "+101"
+  },
+  "reason": {
+    "react-jsx": 3
+  }
+}
