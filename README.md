@@ -2,13 +2,13 @@
 
 Usage example of rescript-material-ui and bs-css.
 
-# Install
+### Install
 
 ```
 npm install
 ```
 
-# Run
+### Run
 
 ```
 npm run dev
